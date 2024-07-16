@@ -1,0 +1,23 @@
+.cartHeader{
+    width: 100%;
+    height: 3rem;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.cartIcon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.cartIcon i{
+    position: relative;
+    margin-bottom: 2px;
+}
+.cartIcon span{
+    padding-left: 1rem;
+}

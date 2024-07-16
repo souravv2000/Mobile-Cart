@@ -1,0 +1,54 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+.leftCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+img{
+    width: 120px;
+}
+.title_price{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.title_price button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(185, 194, 65);
+    cursor: pointer;
+    transition: all0.3s ease;
+    border: none;
+    outline: none;
+}
+.title_price button:active{
+   transform: scale(0.96);
+}
+.title_price p{
+    color: rgb(175, 137, 137);
+}
+.Btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.Btn i{
+    font-size: 1.5rem;
+    color: blue;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Btn i:active{
+    transform: scale(0.96);
+}
